@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import CompoImg from '../src/components/CompoImg'
-import MEF from '../src/components/MEF'
 import Typical from 'react-typical';
+import Button from '../src/components/Button'
+import Layout from '../src/components/Layout';
 
 
 
@@ -11,11 +12,12 @@ class App extends React.Component{
   render(){
     return(
       <>
+      <Layout>
+      <div className="App" style={{color: 'black', textAlign:'center',fontFamily:'PT Sans'}}>
       
-      <div className="App" style={{color: 'white', textAlign:'center',margin:'70px',fontFamily:'PT Sans'}}>
       <CompoImg/>
-        <h1>Hi, I'm Corentyn.</h1>
-        <p> I'm a{' '}
+        <h1 className = "text-white">Hi, I'm Corentyn.</h1>
+        <p className ="text-white"> I'm a{' '}
 
           <Typical 
             loop={Infinity}
@@ -32,8 +34,10 @@ class App extends React.Component{
           />
 
         </p>
+        <Button/>
+        
       </div>
-      
+      </Layout>
       
       </>
     )
