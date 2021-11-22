@@ -13,26 +13,23 @@ class App extends React.Component{
     return(
       <>
       <Layout>
-      <div className="App" style={{color: 'black', textAlign:'center',fontFamily:'PT Sans'}}>
+      <div className="App pt-32" style={{color: 'black', textAlign:'center',fontFamily:'PT Sans'}}>
       
       <CompoImg/>
-        <h1 className = "text-white">Hi, I'm Corentyn.</h1>
-        <p className ="text-white"> I'm a{' '}
-
+        <h1 className = "text-white pt-8 text-2xl">Hi, I'm Corentyn</h1>
+        <p className ="text-yellow-500 mb-8 text-xl"> I'm {' '}
+        
           <Typical 
             loop={Infinity}
             wrapper="b"
             steps = {[
-              'Student 📚',
+              'a Student 📚',
               1000,
-              'Web Developper 💻',
+              'in a work-study program 💻',
               1000,
             ]}          
-          
-          
-          
           />
-
+        
         </p>
         <Button/>
         

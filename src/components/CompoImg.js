@@ -5,7 +5,7 @@ class CompoImg extends Component{
         return(
             <>
             
-            <Gravatar email="corentyn.masset@gmail.com" size={300} rating="pg" default="monsterid" className="CustomAvatar-image m-auto rounded-full" 
+            <Gravatar email="corentyn.masset@gmail.com" size={250} rating="pg" default="monsterid" className="CustomAvatar-image m-auto rounded-full border-2 border-yellow-500" 
             
             />
             </>
