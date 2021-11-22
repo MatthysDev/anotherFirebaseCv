@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-
+import Gravatar from 'react-gravatar';
 class CompoImg extends Component{
     render(){
         return(
             <>
             
-            <img src="https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/5/8/858743bb35_50169458_chien-min.jpg" alt="matthys" width="320px" style={{borderRadius:'50%', margin: 'auto'}}
+            <Gravatar email="corentyn.masset@gmail.com" size={200} rating="pg" default="monsterid" className="CustomAvatar-image" 
+            style={{borderRadius:'50%'}}
             />
             </>
         )
