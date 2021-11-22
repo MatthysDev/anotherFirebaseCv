@@ -12,7 +12,7 @@ class App extends React.Component{
     return(
       <>
       
-      <div className="App" style={{color: 'white', textAlign:'center',margin:'50px',fontFamily:'PT Sans'}}>
+      <div className="App" style={{color: 'white', textAlign:'center',margin:'70px',fontFamily:'PT Sans'}}>
       <CompoImg/>
         <h1>Hi, I'm Corentyn.</h1>
         <p> I'm a{' '}
