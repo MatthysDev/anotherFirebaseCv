@@ -1,3 +1,3 @@
 Hi 😄! This is my portfolio.
 
-Work In Progress. 🛠
+Work In Progress. 🛠⚡️
