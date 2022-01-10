@@ -8,9 +8,9 @@ class Navigation extends Component {
             <div className="bg-gray-800 text-center bg-local">
                 <ul className="text-white inline-grid grid-cols-3 gap-x-4 text-xl">
                     
-                    <Link to="/"><li>Home</li></Link>
-                    <Link to="/About"><li>About</li></Link>
-                    <Link to="/Tools"><li>Tools</li></Link>
+                    <Link to="/"><li className='hover:text-yellow-400 hover:underline'>Home</li></Link>
+                    <Link to="/About"><li className='hover:text-yellow-400 hover:underline'>About</li></Link>
+                    <Link to="/Tools"><li className='hover:text-yellow-400 hover:underline'>Tools</li></Link>
                     
                 </ul>
             </div>

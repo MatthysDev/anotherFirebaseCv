@@ -14,15 +14,26 @@ export default class Tools extends Component {
                 <h1 className="text-white text-xl text-center pt-8">TOOLS</h1>
             </div>
 
-            <div className="pl-60 content-center">
-                <img className="w-16 pt-8" src={js}/>
-                <p className="ml-24 text-white"> JavaScript </p>
-                <img className="w-24 pt-8" src={php}/>
-                <p className="ml-24 text-white"> PHP </p>
-                <img className="w-24 pt-8" src={react}/>
-                <p className="ml-24 text-white"> ReactJS </p>
-                <img className="w-24 pt-8" src={vsc}/>
-                <p className="ml-24 text-white"> Visual Studio Code </p>
+            <div className="flex justify-evenly pt-32">
+                <div>
+                <img className="w-16" src={js}/>
+                <p className='text-white text-center mt-2'>JavaScript</p>
+                </div>
+
+                <div>
+                <img className="w-24" src={vsc}/>
+                <p className='text-white text-center mt-2'>Visual Studio Code</p>
+                </div>
+
+                <div>
+                <img className="w-24" src={php}/>
+                <p className='text-white text-center mt-2'>PHP</p>
+                </div>
+
+                <div>
+                <img className="w-24" src={react}/>
+                <p className='text-white text-center mt-2'>ReactJS</p>
+                </div>
             </div>
             </Layout>
             
