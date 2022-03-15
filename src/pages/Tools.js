@@ -35,6 +35,10 @@ export default class Tools extends Component {
                 <p className='text-white text-center mt-2'>ReactJS</p>
                 </div>
             </div>
+
+            <div>
+                <p> Projects </p>
+            </div>
             </Layout>
             
             </>

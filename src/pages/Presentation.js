@@ -1,33 +1,24 @@
-import React, { Component } from 'react'
-import Layout from '../components/Layout'
-import iut from '../img/iut.png'
+import React, { Component } from "react";
+import Layout from "../components/Layout";
+import iut from "../img/iut.png";
+import CompoImg from "../components/CompoImg";
 
- class Presentation extends Component {
-    render() {
-        return (
-            <>
-            <Layout>
-            <div >
-                
-                <p className="text-white text-xl text-center px-64 pt-8 ">
-                    Hello, my name is Corentyn Masset. Currently I'm studying in Calais at the IUT for Web development and mobile development.
-                    
-                </p>
-
-                <div className='pt-2 flex justify-center'>
-                <img src={iut}/>  
-                </div>
-                
-
-                <p className="text-white text-l text-center px-64 pt-4">
-                    For this year I'm in a work-study program for the Groupe Baron. During this year at the IUT, I did a lot of projet like a mobile APP in Flutter, or Blog in Symfony.
-                </p>
+class Presentation extends Component {
+  render() {
+    return (
+      <>
+        <Layout>
+          <div className="w-full">
+            <div className="felx flex-col justify-center">
+              <div className="">
+                <CompoImg />
+              </div>
             </div>
-            </Layout>
-            
-            </>
-        )
-    }
+          </div>
+        </Layout>
+      </>
+    );
+  }
 }
 
-export default Presentation
+export default Presentation;
