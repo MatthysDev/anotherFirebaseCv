@@ -1,5 +1,6 @@
 import { signup, useAuth, logout, login } from "../firebase.config";
 import { useRef, useState } from "react";
+import Layout from "./Layout";
 
 export default function SignupModal() {
   const [loading, setLoading] = useState(false);
@@ -29,24 +30,28 @@ export default function SignupModal() {
   }
 
   return (
-    <>
-      <div id="fields">
+    <Layout>
+      <div id="fields" className="w-1/2 m-auto ">
         <input
           ref={emailRef}
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+          className="shadow appearance-none border rounded w-full py-6 px-3 text-grey-darker my-4 text-2xl"
           placeholder="Email"
-        ></input>
+        />
         <input
           ref={passwordRef}
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+          className="shadow appearance-none border rounded w-full py-6 px-3 text-grey-darker my-4 "
           type="password"
           placeholder="Password"
-        ></input>
-        <button disabled={loading || currentUser} onClick={handlerSignup}>
+        />
+        <button
+          disabled={loading || currentUser}
+          onClick={handlerSignup}
+          className="text-center text-xl border-purple-500 border-2 pl-4 pr-4 pt-2 pb-2 text-white rounded-md hover:bg-purple-500"
+        >
           Sign Up
         </button>
         <br></br>
       </div>
-    </>
+    </Layout>
   );
 }

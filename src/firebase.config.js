@@ -8,15 +8,20 @@ import {
   signOut,
 } from "firebase/auth";
 
+const firebaseConfig = {
+  apiKey: "AIzaSyCDDgBvnsrDkSUex9bRbYES_Zkh-ZRNm-s",
 
-export const firebaseConfig = {
-  apiKey: "AIzaSyCgAXfyS3u5E1gBeOyD9ontOuq1M2KCMnk",
-  authDomain: "reactportfoliocorentyn.firebaseapp.com",
-  projectId: "reactportfoliocorentyn",
-  storageBucket: "reactportfoliocorentyn.appspot.com",
-  messagingSenderId: "188297901392",
-  appId: "1:188297901392:web:f20f760d30cbd8c2036855",
-  measurementId: "G-QRR0Y6WVKY",
+  authDomain: "matthyscv.firebaseapp.com",
+
+  projectId: "matthyscv",
+
+  storageBucket: "matthyscv.appspot.com",
+
+  messagingSenderId: "563031124487",
+
+  appId: "1:563031124487:web:134ea85ddfe3b673dd58a2",
+
+  measurementId: "G-1KEHSGHG97",
 };
 
 export const app = initializeApp(firebaseConfig);
@@ -45,4 +50,3 @@ export function useAuth() {
 
   return currentUser;
 }
-
