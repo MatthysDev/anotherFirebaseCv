@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Layout from "../components/Layout";
 import iut from "../img/iut.png";
 import CompoImg from "../components/CompoImg";
-
+import Button from "../components/Button";
 class Presentation extends Component {
   render() {
     return (
@@ -10,8 +10,11 @@ class Presentation extends Component {
         <Layout>
           <div className="w-full">
             <div className="felx flex-col justify-center">
-              <div className="">
+              <div className="p-20">
                 <CompoImg />
+                <div className="flex justify-center p-10">
+                <Button/>
+                </div>
               </div>
             </div>
           </div>
