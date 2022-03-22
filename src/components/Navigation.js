@@ -8,16 +8,14 @@ class Navigation extends Component {
         <div className="bg-gray-900 text-center bg-local py-8 text-3xl">
           <ul className="text-white inline-grid grid-cols-3 gap-x-4 ">
             <Link to="/">
-              <li className="hover:text-purple-300 hover:underline">Home</li>
+              <li className="hover:text-purple-300 ">Home</li>
             </Link>
 
             <Link to="/Login">
-              <li className="hover:text-purple-300 hover:underline">Login</li>
+              <li className="hover:text-purple-300 ">Login</li>
             </Link>
             <Link to="/Register">
-              <li className="hover:text-purple-300 hover:underline">
-                Register
-              </li>
+              <li className="hover:text-purple-300 ">Register</li>
             </Link>
           </ul>
         </div>
