@@ -1,8 +1,7 @@
 import { useAuth, login, logout } from "../firebase.config";
-import { signInWithGoogle } from "../firebase.config";
 import { useRef, useState } from "react";
 import { auth } from "../firebase.config";
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import Layout from "../components/Layout";
 
 export default function LoginModal() {
